@@ -30,7 +30,7 @@ After carefully analyzing the existing data and considering the results of our e
 1. Higher Granularity of Data:
 
 * Instead of solely measuring "hours per week," I suggest collecting data at a more granular level, such as "hours per day," broken down by individual days. This will provide a clearer understanding of players' commitment and playing habits.
-* By incorporating this level of detail, we can distinguish between casual players who excel despite limited playtime and professional players who dedicate extensive hours to the game, such as streamers. This differentiation can help reveal important patterns and performance indicators.
+* By incorporating this level of detail, we can distinguish between casual players who excel despite limited play time and professional players who dedicate extensive hours to the game, such as streamers. This differentiation can help reveal important patterns and performance indicators.
 
 2. Emphasize Decision-Making and Reaction Abilities:
 
