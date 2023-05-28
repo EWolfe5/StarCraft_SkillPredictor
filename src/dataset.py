@@ -14,8 +14,7 @@ class Dataset():
     
     def __init__(self, datadir='data/starcraft_player_data.csv', scaler=MinMaxScaler):
         self.data = pd.read_csv(datadir, na_values='?')
-        # self.data = self.data.loc[:, self.FEATURES]
-        self.data.drop(columns=['GameID', 'Age', 'HoursPerWeek'], inplace=True)
+        self.data = self.data.loc[:, self.FEATURES]
         # Consolidate classes
         self.data.LeagueIndex.replace({7:6, 8:6, 6:6}, inplace=True)
         # Fill in missing values and handle outliers
