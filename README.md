@@ -2,7 +2,6 @@
 This repository contains the code and resources for a project focused on classifying StarCraft players based on various gameplay attributes. The classification model aims to predict the skill level or league of a player using machine learning techniques.
 
 ## **Overview**
-___
 This project aimed to analyze and predict the skill level of players in a video game based on various features. The work was divided into two main sections: Exploratory Data Analysis (EDA), which included feature engineering and data preprocessing, and Modeling.
 
 In the EDA phase, the dataset was analyzed and preprocessed. The 'GameID' feature, which served no purpose in prediction or analysis, was dropped. Missing data and outliers were handled appropriately. The relationships between different features and the target variable were explored using plots and statistical analysis.
@@ -24,7 +23,6 @@ It is important to note that the dataset imbalance and potential overfitting iss
 Despite the limitations and suboptimal results, the project provides valuable insights into the dataset and serves as a foundation for further exploration and improvement in predicting players' skill levels in the video game.
 
 ## **Hypothetical**
-____
 *Hypothetical: after seeing your work, your stakeholders come to you and say that they can collect more data, but want your guidance before starting. How would you advise them based on your EDA and model results?*
 
 After carefully analyzing the existing data and considering the results of our exploratory data analysis (EDA) and model findings, I would like to provide guidance on collecting additional data to further enhance our player classification system. The following recommendations aim to improve the accuracy and effectiveness of our classifier:
@@ -54,7 +52,6 @@ After carefully analyzing the existing data and considering the results of our e
 By following these recommendations, we can significantly enhance our player classification system. The collection of more granular data, particularly focusing on decision-making abilities, expanding the dataset with high-quality matches, and accounting for regional server differences, will provide a more robust foundation for accurate player classification.
 
 ## **Notes**
-___
 For a more in-depth explanation of the project's process and analysis, please refer to the Jupyter notebooks provided in the repository. These notebooks cover the exploratory data analysis ([EDA](https://github.com/EWolfe5/StarCraft_SkillPredictor/blob/main/EDA.ipynb)), data preprocessing, and [model](https://github.com/EWolfe5/StarCraft_SkillPredictor/blob/main/Modeling.ipynb) development steps.
 
 While a separate data pipeline has been created, it's important to note that the code for the pipeline was derived from the initial EDA and data preprocessing stages. This ensures a consistent and reliable flow of data for training and evaluating the classification model.
